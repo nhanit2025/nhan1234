@@ -1,0 +1,87 @@
+#noidung1{
+	display: flex;
+	flex-direction: column;
+	height: 150px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+table,td{
+	border:  1px solid green;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+td{
+	text-align: center;
+}
+#header-1-logo1{
+height: 100px;
+background-color: blue;
+}
+.header-1-logo-1{
+	height: 50px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: yellow;
+}
+td:hover{
+	background-color: red;
+}
+#noidung{
+	display: flex;
+	flex-direction: column;
+}
+#main-1{
+	display: flex;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main-noidung-1{
+	text-align: center;
+	margin-top: 0px;
+}
+
+.img-trangthai1{
+		box-sizing: border-box;
+         margin: auto;
+         width: 70%;
+}
+.img-trangthai{
+width: 100%;
+height: auto;
+}
+.main-lienket{
+	flex: 1;
+	background-color: #888888;
+	display: flex;
+flex-direction: column;
+white-space: nowrap;
+padding-right: 20px;
+}
+.main-noidung-1{
+	margin: 16px 0;
+}
+.main-lienket1{
+	flex: 1;
+	
+}
+.main-lienket2{
+	flex: 1;
+}
+li{
+ list-style-type: none;
+ text-align: left;
+}
+ul{
+	line-height: 34px;
+}

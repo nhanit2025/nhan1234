@@ -1,0 +1,287 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+header {
+    background-color: #004ea1;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header .logo img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f9bc02;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #004ea1;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.main-content {
+    flex: 2;
+    padding: 20px;
+}
+
+.main-content img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+}
+
+aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #e0f7fa;
+}
+
+aside h3 {
+    color: #004ea1;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #004ea1;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #004ea1;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.logo{
+    width: 100%;
+}
+
+header .logo img {
+    max-width: 800px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+nav ul li a.active {
+    background-color: #ff6600;
+    color: white;
+}
+
+.main-content {
+    width: 600px; /* Đặt chiều rộng tối đa cho form */
+    margin: 0 auto; /* Căn giữa form */
+    padding: 20px; /* Tạo khoảng trống bên trong */
+    background-color: #f9f9f9; /* Màu nền nhẹ */
+    border: 1px solid #ccc; /* Đường viền bao quanh */
+    border-radius: 8px; /* Bo tròn góc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tạo bóng nhẹ */
+}
+
+.main-content h2 {
+    text-align: center; /* Căn giữa tiêu đề */
+    margin-bottom: 20px; /* Khoảng cách dưới tiêu đề */
+}
+
+fieldset {
+    margin-bottom: 15px; /* Giảm khoảng cách giữa các fieldset */
+    padding: 10px; /* Giảm padding bên trong fieldset */
+    border: 1px solid #ddd; /* Viền nhẹ hơn */
+    border-radius: 5px; /* Bo tròn góc */
+}
+
+legend {
+    font-size: 16px; /* Kích thước chữ cho tiêu đề fieldset */
+    font-weight: bold;
+    padding: 0 10px; /* Thêm khoảng trống cho legend */
+    color: #333; /* Màu chữ */
+}
+
+label {
+    font-size: 14px; /* Kích thước chữ nhỏ hơn */
+    display: block; /* Hiển thị trên dòng riêng */
+    margin-bottom: 5px; /* Khoảng cách dưới label */
+}
+
+input, select, textarea {
+    width: 100%; /* Chiều rộng đầy đủ */
+    height: 35px; /* Chiều cao nhỏ hơn */
+    padding: 5px; /* Giảm padding */
+    margin-bottom: 10px; /* Khoảng cách dưới input */
+    font-size: 14px; /* Kích thước chữ */
+    border: 1px solid #ccc; /* Đường viền */
+    border-radius: 5px; /* Bo tròn góc */
+}
+
+input[type="radio"] {
+    width: auto; /* Không kéo dãn radio button */
+    margin-right: 5px; /* Khoảng cách phải */
+}
+
+input[type="submit"], input[type="reset"] {
+    width: 100px; /* Đặt chiều rộng cố định */
+    height: 40px; /* Chiều cao nút bấm */
+    font-size: 14px; /* Kích thước chữ nút */
+    background-color: #007bff; /* Màu nền nút */
+    color: white; /* Màu chữ */
+    border: none; /* Loại bỏ viền nút */
+    border-radius: 5px; /* Bo tròn góc nút */
+    cursor: pointer; /* Hiệu ứng chuột */
+    margin-right: 10px; /* Khoảng cách giữa hai nút */
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #0056b3; /* Màu nền khi hover */
+}
+
+.table-container {
+    width: 80%; /* Giới hạn chiều rộng bảng */
+    margin: 20px auto; /* Căn giữa bảng */
+    padding: 10px; /* Khoảng trống ngoài bảng */
+    background-color: #f9f9f9; /* Nền nhẹ */
+    border: 1px solid #ccc; /* Viền bảng */
+    border-radius: 10px; /* Bo tròn bảng */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bóng đổ nhẹ */
+}
+
+.table-container h2 {
+    text-align: center; /* Căn giữa tiêu đề */
+    margin-bottom: 20px; /* Khoảng cách phía dưới tiêu đề */
+    color: #d90429; /* Màu chữ nổi bật */
+}
+
+table {
+    width: 100%; /* Bảng chiếm toàn bộ chiều rộng container */
+    border-collapse: collapse; /* Loại bỏ khoảng cách giữa các ô */
+    margin-bottom: 10px; /* Khoảng cách phía dưới bảng */
+}
+
+th, td {
+    padding: 10px; /* Khoảng cách trong ô */
+    text-align: center; /* Căn giữa nội dung */
+    border: 1px solid #ddd; /* Viền ô */
+}
+
+th {
+    background-color: #2b7a78; /* Nền tiêu đề bảng */
+    color: #ffffff; /* Chữ trắng trên nền xanh */
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f1f1; /* Nền xen kẽ cho hàng chẵn */
+}
+
+tr:hover {
+    background-color: #e8f0fe; /* Hiệu ứng khi di chuột */
+}
+
+.caption {
+    text-align: right;
+    font-size: 12px;
+    color: #555;
+    margin-top: 5px;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    color: #d90429;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header p {
+    color: #555;
+    font-size: 14px;
+}
+
+.section-title {
+    font-size: 18px;
+    color: #2b7a78;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-left: 20px;
+    list-style: square;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+}
+
+.footer a {
+    color: #2b7a78;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
